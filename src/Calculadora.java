@@ -55,9 +55,12 @@ public static void menu (){
         System.out.println("Digite");
         int valorA = escreva();
         int valorB = escreva();
-        if (valorB ==0)
+        if (valorB ==0){
+            System.out.println("erro");
+        }
+
         int resultado = valorA/valorB;
-        System.out.println("Resultado %d \n", resultado );
+        System.out.printf("Resultado %d \n", resultado );
 
     }
 
